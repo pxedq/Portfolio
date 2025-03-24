@@ -18,7 +18,6 @@ function CreateProjectCard(data)
                     </div>
                     <div class="project-description">
                         <h3>${data.title}</h3>
-                        <hr>
                         <p>Témakörök</p>
                         <ul>
                             ${temakorok}

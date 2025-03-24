@@ -48,11 +48,23 @@ nav ul {
 ul a {
   text-decoration: none;
   color: whitesmoke;
+  transition: 0.2s;
+}
+
+ul a:hover {
+  color: rgb(168, 130, 25);
+  transition: 0.2s;
 }
 
 .portfolio {
   text-decoration: none;
   color: whitesmoke;
+  transition: 0.2s;
+}
+
+.portfolio:hover {
+  color: rgb(168, 130, 25);
+  transition: 0.2s;
 }
 
 .first {
@@ -140,6 +152,14 @@ section {
   width: 130px;
   text-align: center;
   color: black;
+  height: 27px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: rgba(168, 130, 25, 0.758);
+  color: white;
+  transition: 0.2s;
 }
 
 blockquote {
@@ -186,12 +206,14 @@ blockquote {
   background-color: whitesmoke;
   flex-direction: column;
   justify-content: start;
+  margin: 0 auto;
 }
 
 .workContent {
   width: 80%;
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .work-title {
@@ -210,11 +232,11 @@ blockquote {
 }
 
 .project-container {
+  margin: 0 auto 2rem auto;
   background-color: #1f2020;
   width: 80%;
   border: 1px solid #1f2020;
   padding: 1rem;
-  margin-bottom: 2rem;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
@@ -225,20 +247,21 @@ blockquote {
 
 .project-img {
   padding-right: 2rem;
+  width: 60%;
 }
 
 .project-img img {
-  height: 500px;
-  width: 800px;
+  width: 100%;
 }
 
 .project-description {
-  width: 700px;
+  width: 40%;
 }
 
 .project-description h3{
   color: white;
   font-size: x-large;
+  border-bottom: 2px solid white;
 }
 
 .project-description p {
@@ -334,4 +357,98 @@ blockquote {
   text-align: left;
   padding-right: 3rem;
   margin-top: 1rem;
+}
+
+@media only screen and (max-width:1200px){
+  .project-layout {
+    flex-direction: column;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+
+  .project-description {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:1024px) {
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-title {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width:835px) {
+  .aboutDescriptionContent {
+    max-width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  .aboutTitleContent {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .hero-content {
+    flex-direction: column;
+  }
+
+  .hero-photo {
+    width: fit-content;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width:627px) {
+  .aboutTitleContent {
+    margin-top: 1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .hero-content {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .portfolio{
+    display: none;
+  }
+
+  nav ul {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width:450px) {
+  .hero-quote {
+    width: 30%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width:400px) {
+  .logo h3 {
+    display: none;
+  }
+
+  .ball {
+    margin-right: 2px;
+  }
+
+  nav {
+    padding-left: 8px;
+  }
 }
