@@ -5,12 +5,11 @@
 		"photo_url":"https://res.cloudinary.com/dfrvm8ybh/image/upload/v1741938739/Viragbolt_gxt9h6.png",
 		"repo_link":"https://github.com/pxedq/Viragbolt",
       	"topics": [
-          	"fetch API",
-          	"Set adatszerkezet",
-          	"Array.from()",
+          	"Fetch API használata",
           	"radió gombok használata",
-          	"checkboxok használata",
-          	"select használata"
+          	"adatok programozott renderelése",
+          	"select használata",
+			"reszponzív design"
 		],
 		"site_link":"https://pxedq.github.io/Viragbolt/"
     },
@@ -44,8 +43,38 @@
 		],
 		"site_link":"https://pxedq.github.io/FlexboxHasznalata/"
     },
-	{
+    {
 		"id": 4,
+		"title":"Képkereső",
+		"photo_url":"https://res.cloudinary.com/dfrvm8ybh/image/upload/v1742813056/FreePhotos_kdbjk6.png",
+		"repo_link":"https://github.com/pxedq/FreePhotos",
+      	"topics": [
+          	"fetch API",
+          	"Set adatszerkezet",
+          	"Array.from()",
+          	"radió gombok használata",
+          	"checkboxok használata",
+          	"select használata"
+		],
+		"site_link":"https://pxedq.github.io/FreePhotos/"
+    },
+	{
+		"id": 5,
+		"title":"Expanding Cards",
+		"photo_url":"https://res.cloudinary.com/dfrvm8ybh/image/upload/v1742842000/ExpandingCards_atfv8p.png",
+		"repo_link":"https://github.com/pxedq/ExpandingCards",
+      	"topics": [
+          	"fetch API",
+          	"Set adatszerkezet",
+          	"Array.from()",
+          	"radió gombok használata",
+          	"checkboxok használata",
+          	"select használata"
+		],
+		"site_link":"https://pxedq.github.io/ExpandingCards/"
+    },
+	{
+		"id": 6,
 		"title":"BMI Calculator",
 		"photo_url":"https://res.cloudinary.com/dfrvm8ybh/image/upload/v1742813055/BMICalc_a5jpzi.png",
 		"repo_link":"https://github.com/pxedq/BMI",
@@ -58,20 +87,5 @@
           	"select használata"
 		],
 		"site_link":"https://pxedq.github.io/BMI/"
-    },
-    {
-		"id": 4,
-		"title":"Free photos",
-		"photo_url":"https://res.cloudinary.com/dfrvm8ybh/image/upload/v1742813056/FreePhotos_kdbjk6.png",
-		"repo_link":"https://github.com/pxedq/FreePhotos",
-      	"topics": [
-          	"fetch API",
-          	"Set adatszerkezet",
-          	"Array.from()",
-          	"radió gombok használata",
-          	"checkboxok használata",
-          	"select használata"
-		],
-		"site_link":"https://pxedq.github.io/FreePhotos/"
     }
 ]
