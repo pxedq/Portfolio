@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylePortfolio.css">
+    <title>Portfolió</title>
+    <script src="getData.js"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <div class="ball"></div>
+                <h3>NN</h3>
+                <a href="#hero" class="portfolio">Portfolio</a>
+            </div>
+            <ul>
+                <li class="first"><a href="#about">Rólam</a></li>
+                <li class="middle"><a href="#work">Munkáim</a></li>
+                <li class="last"><a href="#contact">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    
+        <!--hero section-->
+        <section id="hero">
+            <div class="hero-content">
+                <div class="hero-photo">
+                    <img src="pfp.jpg" alt="My photo" id="profilePic">
+                </div>
+                <div class="hero-quote">
+                    <h1>Nagy Nándor</h1>
+                    <blockquote>A candle loses nothing by lighting another.</blockquote>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="#about" class="btn">Rólam</a>
+                <a href="#work" class="btn">Munkáim</a>
+                <a href="#contact" class="btn">Kapcsolat</a>
+            </div>
+        </section>
+
+        <!--about section-->
+        <section id="about">
+            <div class="aboutTitleContent">
+                <h1 id="about-title">Rólam</h1>
+            </div>
+            <div class="aboutDescriptionContent">
+                <p> 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed nisl nisl. Sed ut porttitor quam, vel tristique turpis. In condimentum augue in rutrum pretium. Curabitur ac nulla sed augue volutpat pulvinar non vitae orci. Vivamus vel pellentesque eros, et venenatis odio. Nullam ullamcorper quam a est rutrum, vel iaculis massa tincidunt. Sed ut lacus ut felis pharetra porta. Fusce et orci id lacus luctus ultricies. Praesent ac turpis semper, luctus lacus ac, luctus eros. Fusce fermentum magna nec urna tristique, eget maximus ipsum auctor.
+
+                    Ut nec nibh sapien. Pellentesque dignissim arcu sed nunc porttitor egestas. Suspendisse fermentum tincidunt mi, non volutpat nunc gravida at. Etiam eu finibus risus. In non faucibus libero. Curabitur consectetur, erat quis rhoncus consequat, eros orci consectetur tortor, egestas dapibus orci nibh vel ante. Quisque nec molestie mauris, vitae maximus leo. Cras eu vulputate ipsum. Donec dolor leo, feugiat vel mi non, tincidunt ullamcorper urna.
+
+                    Aliquam dictum, libero bibendum blandit mollis, quam sapien fringilla sapien, eu fermentum urna est ut velit. Nullam rutrum eget leo at blandit. Praesent ullamcorper sapien vitae scelerisque lobortis. Phasellus interdum enim vel sem ultrices, in iaculis augue facilisis. Curabitur ut dictum magna. Praesent a tellus tristique, sodales metus eu, faucibus mi. Donec placerat fringilla malesuada.
+
+                    Phasellus eget est vitae metus vehicula interdum ac vitae lectus. Donec porttitor, ipsum nec vestibulum volutpat, ipsum est mattis tellus, et euismod enim risus nec nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in venenatis est. Nulla quis accumsan sem, sit amet gravida velit. Proin imperdiet, ante eget porta vehicula, turpis enim interdum odio, nec finibus tellus quam vitae mi. Donec egestas magna massa, vel scelerisque lorem ornare non. Fusce metus nibh, convallis non molestie in, feugiat ac dolor. Cras sed vehicula lacus, vel rhoncus lacus. Nam nisl quam, finibus quis odio vel, iaculis placerat tellus. Quisque commodo ex non elit semper laoreet.
+                </p>
+            </div>
+            
+        </section>
+        <hr>
+
+        <!--work section-->
+        <section id="work">
+            <div class="work-title">
+                <h2 id="munkaim">Munkáim</h2>
+            </div>
+            <div class="workContent">
+                <!--Ide kerülnek a munkáim-->
+            </div>
+        </section>
+
+        <!--contact section-->
+        <section id="contact">
+            <div class="contact-title">
+                <h2 id="kapcsolat">Kapcsolat</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-elerhetosegek">
+                    <h2 id="elerhetosegek">Elérhetőségek</h2>
+                    <p>📨 info@company.com</p>
+                    <p>📞 +36 12 345 6789</p>
+                    <p>🏨 1234 Budapest, Fő utca</p>
+                </div>
+                <div class="contact-form">
+                    <h3 id="contactform-title">Contact form</h3>
+                    <input type="text" placeholder="First name" id="">
+                    <input type="text" placeholder="Last name" id="">
+                    <input type="email" placeholder="Email" id="">
+                    <input type="number" placeholder="Phone Number" id="">
+                    <input type="text-area" placeholder="Message" id="">
+
+                    <input type="button" value="Submit">
+                </div>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1362.618919847652!2d19.68749719014357!3d46.9177057099029!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743da039cc46819%3A0x76e03484e50b2f33!2zS2Vjc2tlbcOpdGkgU1pDIEthbmTDsyBLw6FsbcOhbiBUZWNobmlrdW0!5e0!3m2!1shu!2shu!4v1742760902934!5m2!1shu!2shu" width="350" height="490" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
